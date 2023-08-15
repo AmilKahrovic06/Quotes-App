@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comme", sans-serif;
+  font-family: "Roboto", sans-serif;
+  /* background-image: url("https://static.vecteezy.com/system/resources/previews/003/127/954/original/abstract-template-blue-background-white-squares-free-vector.jpg"); */
+  background-image: url("https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #023a5f;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 204, 255, 0.308);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5dd1ff67;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(134, 241, 255, 0);
+}
